@@ -86,3 +86,13 @@ Key Characteristics of Abstract Classes:
 
 
 */
+
+
+
+
+/*
+In C++: All interfaces are abstract classes, but not all abstract classes are interfaces.
+- Interface = abstract class with only pure virtual functions (no implementation).
+- Abstract class = can mix pure virtual + normal functions (partial implementation possible).
+
+*/

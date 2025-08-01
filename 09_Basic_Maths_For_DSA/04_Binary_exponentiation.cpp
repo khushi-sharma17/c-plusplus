@@ -38,5 +38,9 @@ int main() {
 // Pigeonhole Principle 
 // Catalan number 
 // Inclusion - Exclusion Principle 
+// Chinese Remainder Theorem
+// Lucas Theorem
+// Fermat's Little theorem
+// Probability Questions
 
 // Fcatorial of number = like 212! % m, here m = 10**9 + 7

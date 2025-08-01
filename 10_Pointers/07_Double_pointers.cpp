@@ -37,6 +37,6 @@ int main() {
 }
 
 
-// why int * and not something like poniter * ?
+// why int * and not something like pointer * ?
 // --> which type of data it is.
 // --> how much bytes to be considered ?

@@ -34,28 +34,28 @@ int main() {
 
 
 // friend in a method example
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-class Box {
-private:
-    int width;
+// class Box {
+// private:
+//     int width;
 
-public:
-    Box() : width(0) {}
+// public:
+//     Box() : width(0) {}
 
-    // Declare friend function
-    friend void setWidth(Box& b, int w);
-};
+//     // Declare friend function
+//     friend void setWidth(Box& b, int w);
+// };
 
-// Friend function definition
-void setWidth(Box& b, int w) {
-    b.width = w; // can access private member of the box class
-}
+// // Friend function definition
+// void setWidth(Box& b, int w) {
+//     b.width = w; // can access private member of the box class
+// }
 
-int main() {
-    Box b;
-    setWidth(b, 10);
-    // Can't print width directly without making another method, just know it's set here for right now. If you wanna print the value, make a getter for it
-    return 0;
-}
+// int main() {
+//     Box b;
+//     setWidth(b, 10);
+//     // Can't print width directly without making another method, just know it's set here for right now. If you wanna print the value, make a getter for it
+//     return 0;
+// }

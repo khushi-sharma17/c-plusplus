@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// not able to understand.
 
 bool checkEqual(int a[26], int b[26]) {
     for (int i = 0; i < 26; i++) {
@@ -11,6 +10,7 @@ bool checkEqual(int a[26], int b[26]) {
     }
     return true;
 }
+
 
 bool checkInclusion(string s1, string s2) {
     if (s1.length() > s2.length()) {
@@ -26,7 +26,7 @@ bool checkInclusion(string s1, string s2) {
         count1[index]++;
     }
 
-    // traverse s2 string in a window of size 1 length and compare
+    // traverse s2 string in a window of size s1 length and compare
     int windowSize = s1.length();
     int count2[26] = {0};
 
@@ -60,6 +60,7 @@ bool checkInclusion(string s1, string s2) {
     // If no match is found, return false.
     return false;
 }
+
 
 int main() {
     string s1 = "ab";
